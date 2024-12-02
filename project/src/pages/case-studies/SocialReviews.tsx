@@ -1,7 +1,7 @@
-import React from 'react';
+
 import { motion } from 'framer-motion';
 import { MessageSquare, TrendingUp, Shield } from 'lucide-react';
-import Footer from '../../components/Footer';
+
 
 const SocialReviews = () => {
   return (
@@ -66,7 +66,7 @@ const SocialReviews = () => {
             </motion.div>
           </div>
         </div>
-        <Footer />
+      
       </motion.div>
     </div>
   );

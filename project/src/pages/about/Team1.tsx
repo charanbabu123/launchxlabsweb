@@ -4,28 +4,28 @@ import { Linkedin } from 'lucide-react';
 
 const team = [
   {
-    name: "Dr. Alex Thompson",
-    role: "Chief AI Architect",
-    image: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-1.2.1&auto=format&fit=crop&w=300&q=80",
-    linkedin: "https://linkedin.com/in/"
+    name: "Vineet Dwivedi",
+    role: "Chief executive officer",
+    image: "../assets/vineeth.png",
+    linkedin: "https://www.linkedin.com/in/vindwi/"
   },
   {
-    name: "Dr. Maria Garcia",
-    role: "Head of AI Research",
-    image: "https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&auto=format&fit=crop&w=300&q=80",
-    linkedin: "https://linkedin.com/in/"
+    name: "Anuraag Dubey",
+    role: "chief operating officer",
+    image: "../assets/anuraag1.png",
+    linkedin: "https://www.linkedin.com/in/anuraagdubey/"
   },
   {
-    name: "David Chen",
-    role: "Security Lead",
-    image: "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?ixlib=rb-1.2.1&auto=format&fit=crop&w=300&q=80",
-    linkedin: "https://linkedin.com/in/"
+    name: "Gaurav Nigam",
+    role: "chief Business officer",
+    image: "../assets/gaurav.png",
+    linkedin: "https://www.linkedin.com/in/gaurav-nigam-ab57a97/"
   },
   {
-    name: "Sarah Williams",
-    role: "Vector Database Expert",
-    image: "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixlib=rb-1.2.1&auto=format&fit=crop&w=300&q=80",
-    linkedin: "https://linkedin.com/in/"
+    name: "Hemant Sharma",
+    role: "Lead ml engineering",
+    image: "../assets/hemanth.png",
+    linkedin: "https://www.linkedin.com/in/hemant-sharma-6ab4ba52/"
   }
 ];
 

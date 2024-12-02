@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom';
 const projects = [
   {
     title: 'VectorX - Vector Database Security',
-    description: 'VectorX ensures robust security for vector databases, vital for AI applications managing high-dimensional data. We safeguard sensitive embeddings with advanced encryption, AI-powered real-time anomaly detection, and role-based access control (RBAC) to prevent unauthorized access. Secure indexing through hashing protects against inference attacks while maintaining performance   .',
+    description: 'VectorX is a secure vector database that uniquely combines end-to-end encryption with high-performance vector search capabilities. It encrypts both vector embeddings and metadata using client-side keys, ensuring data security at rest and in transit, while maintaining search speeds comparable to leading vector databases. This makes it an ideal choice for organisations building AI applications that require both robust security and efficient retrieval performance.',
     image: './assets/vectorx.png',
     featured: true
   },

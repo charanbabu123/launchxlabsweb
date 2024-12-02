@@ -30,12 +30,12 @@ const VectorX = () => {
         className="min-h-screen relative overflow-hidden"
       >
         {/* Hero Section */}
-        <div className=" bg-gradient-to-br from-blue-900 via-purple-900 to-blue-900 container mx-auto px-4 py-20">
+        <div className="bg-gradient-to-br from-blue-900 via-purple-900 to-blue-900 backdrop-blur-lg py-20">
           <motion.div
             initial={{ y: 50, opacity: 0 }}
             animate={{ y: 0, opacity: 1 }}
             transition={{ delay: 0.2 }}
-            className="  text-center max-w-4xl mx-auto"
+            className="  text-center max-w-4xl mx-auto "
           >
             <h1 className="text-5xl md:text-7xl font-bold text-white mb-8">
               World's Most Secure Vector Database

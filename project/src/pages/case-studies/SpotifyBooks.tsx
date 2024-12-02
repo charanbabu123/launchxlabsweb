@@ -1,7 +1,7 @@
-import React from 'react';
+
 import { motion } from 'framer-motion';
 import { Book, BarChart, Users } from 'lucide-react';
-import Footer from '../../components/Footer';
+
 
 const SpotifyBooks = () => {
   return (
@@ -66,7 +66,7 @@ const SpotifyBooks = () => {
             </motion.div>
           </div>
         </div>
-        <Footer />
+      
       </motion.div>
     </div>
   );

@@ -1,6 +1,7 @@
 
 import { motion } from 'framer-motion';
 import { Linkedin,  ArrowUp } from 'lucide-react';
+import { Link } from 'react-router-dom';
 
 const Footer = () => {
   const scrollToTop = () => {
@@ -29,10 +30,15 @@ const Footer = () => {
           >
             <h4 className="text-lg font-semibold mb-4">Services</h4>
             <ul className="space-y-2 text-gray-300">
-              <motion.li whileHover={{ x: 5 }}>AI Consulting</motion.li>
-              <motion.li whileHover={{ x: 5 }}>Application Development</motion.li>
-              <motion.li whileHover={{ x: 5 }}>Data Transformation</motion.li>
-              <motion.li whileHover={{ x: 5 }}>Digital Innovation</motion.li>
+              <motion.li whileHover={{ x: 5 }}>
+                <Link to={'./services'}>AI Transformation</Link>
+                </motion.li>
+              <motion.li whileHover={{ x: 5 }}>
+              <Link to={'./services'}>Application Development</Link>
+                </motion.li>
+              <motion.li whileHover={{ x: 5 }}>
+              <Link to={'./services'}>Data Transformation</Link>
+                </motion.li>
             </ul>
           </motion.div>
           <motion.div
@@ -41,12 +47,17 @@ const Footer = () => {
             viewport={{ once: true }}
             transition={{ delay: 0.4 }}
           >
-            <h4 className="text-lg font-semibold mb-4">Company</h4>
+            <h4 className="text-lg font-semibold mb-4">Case Studies</h4>
             <ul className="space-y-2 text-gray-300">
-              <motion.li whileHover={{ x: 5 }}>About Us</motion.li>
-              <motion.li whileHover={{ x: 5 }}>Careers</motion.li>
-              <motion.li whileHover={{ x: 5 }}>Contact</motion.li>
-              <motion.li whileHover={{ x: 5 }}>Blog</motion.li>
+              <motion.li whileHover={{ x: 5 }}>
+              <Link to={'./spotify-books'}>Spotify for Books: AI-Powered Book Discovery Platform</Link>
+                </motion.li>
+              <motion.li whileHover={{ x: 5 }}>
+              <Link to={'./social-reviews'}>AI-Powered Social Reviews Platform</Link>
+               </motion.li>
+              <motion.li whileHover={{ x: 5 }}>
+              <Link to={'./real'}>Real-time Anomaly Detection System</Link>
+              </motion.li>
             </ul>
           </motion.div>
           <motion.div

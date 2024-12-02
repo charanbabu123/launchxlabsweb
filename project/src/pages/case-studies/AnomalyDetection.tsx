@@ -1,7 +1,6 @@
-import React from 'react';
 import { motion } from 'framer-motion';
 import { AlertCircle, Clock, LineChart } from 'lucide-react';
-import Footer from '../../components/Footer';
+
 
 const AnomalyDetection = () => {
   return (
@@ -55,7 +54,6 @@ const AnomalyDetection = () => {
                   <p className="text-gray-300">In false positives</p>
                 </div>
               </div>
-
               <h2 className="text-2xl font-semibold text-white mb-4">Results</h2>
               <ul className="list-disc list-inside text-gray-300 space-y-2">
                 <li>95% reduction in fraudulent transactions</li>
@@ -66,7 +64,7 @@ const AnomalyDetection = () => {
             </motion.div>
           </div>
         </div>
-        <Footer />
+      
       </motion.div>
     </div>
   );

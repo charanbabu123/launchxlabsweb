@@ -42,7 +42,7 @@ const Hero = () => {
           transition={{ duration: 0.8, delay: 1.5 }}
           className="text-xl md:text-2xl text-center mb-12 max-w-2xl text-gray-300"
         >
-          Accelerate your digital transformation with our cutting-edge AI solutions and expert consulting services.
+          At LaunchX, we specialize in being the launchpad for AI products and solutions. With a passion for innovation and a deep understanding of software development, we partner with businesses and AI startups to transform their ideas into exceptional digital products.
         </motion.p>
 
         <motion.div

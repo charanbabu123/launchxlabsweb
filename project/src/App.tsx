@@ -11,15 +11,18 @@ import SpotifyBooks from './pages/case-studies/SpotifyBooks';
 import Contact from './pages/Contact';
 import Services from './pages/Services';
 import VectorX from './pages/VectorX';
+import ScrollToTop from './components/ScrollToTop'; 
 
 function App() {
   return (
     <Router>
+  
+      <ScrollToTop />
       <div className="min-h-screen">
-        {/* Award Banner */}
+    
         <AwardBanner />
 
-        {/* Navbar */}
+        
         <div className="relative z-40">
           <Navbar />
         </div>
@@ -40,6 +43,10 @@ function App() {
             <Route path="/contact" element={<Contact />} />
             <Route path="/vector" element={<VectorX />} />
             <Route path="/contact" element={<Contact />} />
+            <Route path="/services" element={<Services />} />
+            <Route path="/social-reviews" element={<SocialReviews />} />
+            <Route path="/real" element={<AnomalyDetection/>} />
+            <Route path="/spotify-books" element={<SpotifyBooks/>} />
           </Routes>
         </AnimatePresence>
       </div>

@@ -1,7 +1,6 @@
-import React from 'react';
 import { motion } from 'framer-motion';
 import { Brain, Database, Globe } from 'lucide-react';
-import Footer from '../components/Footer';
+
 
 const serviceCategories = [
   {
@@ -99,7 +98,6 @@ const Services = () => {
             ))}
           </div>
         </div>
-        <Footer />
       </motion.div>
     </div>
   );
